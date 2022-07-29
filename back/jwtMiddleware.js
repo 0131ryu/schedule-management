@@ -1,15 +1,3 @@
-// const jwt = require("jsonwebtoken");
-
-// const token = jwt.sign(
-//   { userIdx: 1 }, //payload 정의
-//   "a123" ///서버 비밀 키
-// );
-
-// console.log(token);
-
-// const verifiedToken = jwt.verify(token, "a123123");
-// console.log(verifiedToken);
-
 const jwt = require("jsonwebtoken");
 const { jwtSecret } = require("./front/js/secret");
 

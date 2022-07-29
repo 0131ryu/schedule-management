@@ -19,7 +19,7 @@ exports.signup = async function (req, res) {
     return res.send({
       isSuccess: false,
       code: 400,
-      message: "메세지 형식을 확인하세요.",
+      message: "이메일 형식을 확인하세요.",
     });
   }
 
