@@ -11,7 +11,7 @@
 // console.log(verifiedToken);
 
 const jwt = require("jsonwebtoken");
-const { jwtSecret } = require("./secret");
+const { jwtSecret } = require("./front/js/secret");
 
 exports.jwtMiddleware = async function (req, res, next) {
   // 헤더에서 토큰 꺼내기

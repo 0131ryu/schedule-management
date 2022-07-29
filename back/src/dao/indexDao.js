@@ -1,4 +1,4 @@
-const { pool } = require("../../front/js/database");
+const { pool } = require("../../database");
 
 exports.getUserRows = async function () {
   try {
