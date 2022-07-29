@@ -1,7 +1,7 @@
 const compression = require("compression");
 const cors = require("cors");
-const { indexRouter } = require("../../back/src/router/indexRouter");
-const { userRouter } = require("../../back/src/router/userRouter");
+const { indexRouter } = require("../../src/router/indexRouter");
+const { userRouter } = require("../../src/router/userRouter");
 
 const express = require("express");
 const app = express();

@@ -1,6 +1,6 @@
 const userDao = require("../dao/userDao");
 const jwt = require("jsonwebtoken");
-const { jwtSecret } = require("../../../front/js/secret");
+const { jwtSecret } = require("../../front/js/secret");
 
 exports.signup = async function (req, res) {
   const { email, password, nickname } = req.body;

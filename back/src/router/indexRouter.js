@@ -1,5 +1,5 @@
 const indexController = require("../controller/indexController");
-const { jwtMiddleware } = require("../../../front/js/jwtMiddleware");
+const { jwtMiddleware } = require("../../front/js/jwtMiddleware");
 
 exports.indexRouter = function (app) {
   //CRUD

@@ -1,4 +1,4 @@
-const { pool } = require("../../../front/js/database");
+const { pool } = require("../../front/js/database");
 
 exports.insertUser = async function (email, password, nickname) {
   try {
